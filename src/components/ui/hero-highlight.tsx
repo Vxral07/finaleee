@@ -1,0 +1,44 @@
+"use client";
+import { cn } from "@/lib/utils";
+import { motion, } from "framer-motion";
+import React from "react";
+
+
+
+export const Highlight = ({
+  children,
+  className,
+}: {
+  children: React.ReactNode;
+  className?: string;
+}) => {
+  return (
+    <motion.span
+      initial={{
+        backgroundSize: "0% 100%",
+      }}
+      animate={{
+        backgroundSize: "100% 100%",
+      }}
+      transition={{
+        duration: 5,
+        ease: "linear",
+        delay: 1,
+        repeat: Infinity,
+        repeatDelay:2
+        // repeatType: "reverse", 
+      }}
+      style={{
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "left center",
+        display: "inline",
+      }}
+      className={cn(
+        `relative inline-block pb-1  px-1 rounded-lg bg-gradient-to-r from-[#f5deb3d2] to-[#f5deb3cf] dark:from-indigo-500 dark:to-purple-500`,
+        className
+      )}
+    >
+      {children}
+    </motion.span>
+  );
+};
