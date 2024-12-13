@@ -14,21 +14,23 @@ const tieups = [
 
 const RegulatoryTieups = () => {
   return (
-    <div className="flex flex-col gap-8 px-14 mt-10 py-12 items-center justify-center antialiased container">
+    <div className="flex flex-col gap-8  px-14 mt-10 py-12 items-center justify-center antialiased container">
       <div className="flex flex-col justify-between items-center w-full">
-        <div className="flex flex-col gap-4 mb-16">
-          <h1 className="text-center pb-5 leading-tight sm:text-4xl lg:text-5xl">
-            <span className="text-white">Build</span>{" "}
-            <span className="text-cyan-500">trust</span>{" "}
-            <span className="text-cyan-500">through</span>{" "}
-            <span className="text-cyan-500">collaboration</span>
-          </h1>
-          <p className="text-center text-white">
-            Our partnerships with esteemed financial institutions like
-            regulatory body like DFSA foster trust in our commitment to security{" "}
-            <br /> and responsible financial practices, ensuring your
-            investments are managed in a secure and reliable environment.
-          </p>
+        <div className="flex flex-col justify-between items-center w-full">
+          <div className="flex flex-col gap-4 mb-16">
+            <h1 className="text-center pb-5 font-bold leading-tight font-poppins text-3xl sm:text-4xl lg:text-5xl">
+              <span className="text-white">Build</span>{" "}
+              <span className="text-cyan-500">trust</span>{" "}
+              <span className="text-cyan-500">through</span>{" "}
+              <span className="text-cyan-500">collaboration</span>
+            </h1>
+            <p className="text-center text-white font-poppins">
+              Our partnerships with esteemed financial institutions like
+              regulatory body like DFSA foster trust in our commitment to
+              security <br /> and responsible financial practices, ensuring your
+              investments are managed in a secure and reliable environment.
+            </p>
+          </div>
         </div>
 
         {/* <Carousel
