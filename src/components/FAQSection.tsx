@@ -26,53 +26,53 @@ export const FAQSection: React.FC = () => {
         <FAQCard
           title="Why Invest through Nuqi?"
           description="Access diverse portfolio featuring 250+ Indian stocks and 1000+ global stocks, along with ETFs, mutual funds, and sukuks. Access to global markets like US, UK, Europe and more. Access global and local ethical mutual funds for systematic investment planning and lumpsum. Pre-designed portfolios by qualified investment advisors for long-term investing."
-          customStyles="col-span-1 lg:col-span-1 lg:row-span-2 min-h-[200px] lg:h-[450px] border border-solid border-white border-opacity-40 rounded-[61px]"
+          customStyles="col-span-1 lg:col-span-1 lg:row-span-2 pt-20 min-h-[200px] lg:h-[450px] border border-solid border-white border-opacity-40 rounded-[61px]"
         />
 
         {/* Big - Small - Small */}
         <FAQCard
           title="Does Nuqi require a minimum investment to get started?"
           description="You can start your NUQI investment journey with USD 100 *"
-          customStyles="min-h-[200px] border border-solid border-white border-opacity-40 rounded-[61px]"
+          customStyles="min-h-[200px] border pt-10 border-solid border-white border-opacity-40 rounded-[61px]"
         />
         <FAQCard
           title="Does Nuqi offer investment options that consider social responsibility?"
           description="YES, our Curated Equity Portfolios (CEP's) are based on Ethical / Social & Sustainable ESS Principles."
-          customStyles="min-h-[200px] border border-solid border-white border-opacity-40 rounded-[61px]"
+          customStyles="min-h-[200px] pt-10 border border-solid border-white border-opacity-40 rounded-[61px]"
         />
         <FAQCard
           title="Where can I invest?"
           description="With NUQI, now you have the option to invest in select financial products in India and in international markets. NUQI takes a cautious approach and presently will only recommend investment instruments that have been pre-screened and carry returns as per your risk profile."
-          customStyles="col-span-1 lg:col-span-1 lg:row-span-2 min-h-[200px] lg:h-[450px] border border-solid border-white border-opacity-40 rounded-[61px]"
+          customStyles="col-span-1 lg:col-span-1 lg:row-span-2 pt-20 min-h-[200px] lg:h-[450px] border border-solid border-white border-opacity-40 rounded-[61px]"
         />
 
         {/* Small - Big - Small */}
         <FAQCard
           title="Does Nuqi require minimum investment to get started?"
           description="You can start your NUQI investment journey with USD 100 *"
-          customStyles="min-h-[200px] border border-solid border-white border-opacity-40 rounded-[61px]"
+          customStyles="min-h-[200px] pt-10 border border-solid border-white border-opacity-40 rounded-[61px]"
         />
         <FAQCard
           title="Why invest through Nuqi?"
           description="Access diverse portfolio featuring 250+ Indian stocks and 1000+ global stocks, along with ETFs, mutual funds, and sukuks. Access to global markets like US, UK, Europe and more. Access global and local ethical mutual funds for systematic investment planning and lumpsum. Pre-designed portfolios by qualified investment advisors for long-term investing.."
-          customStyles="col-span-1 lg:col-span-1 lg:row-span-2 min-h-[200px] lg:h-[450px] border border-solid border-white border-opacity-40 rounded-[61px]"
+          customStyles="col-span-1 lg:col-span-1 lg:row-span-2 pt-20 min-h-[200px] lg:h-[450px] border border-solid border-white border-opacity-40 rounded-[61px]"
         />
         <FAQCard
           title="Are there live events to learn more about Nuqi's investment strategies?"
           description="YES live online sessions / Global Event Participations on the cards."
-          customStyles="min-h-[200px] border border-solid border-white border-opacity-40 rounded-[61px]"
+          customStyles="min-h-[200px] pt-10 border border-solid border-white border-opacity-40 rounded-[61px]"
         />
 
         {/* Small - Small - Big */}
         <FAQCard
           title="Does Nuqi require minimum investment to get started?"
           description="You can start your investment with USD 100.."
-          customStyles="min-h-[200px] border border-solid border-white border-opacity-40 rounded-[61px]"
+          customStyles="min-h-[200px] pt-10 border border-solid border-white border-opacity-40 rounded-[61px]"
         />
         <FAQCard
           title="Can you adjust your investment plan based on changing risk tolerance?"
           description="YES, our Curated Equity Portfolios (CEP's) are based on Ethical / Social & Sustainable ESS Principles"
-          customStyles="min-h-[200px] border border-solid border-white border-opacity-40 rounded-[61px]"
+          customStyles="min-h-[200px] pt-10 border border-solid border-white border-opacity-40 rounded-[61px]"
         />
       </div>
     </div>

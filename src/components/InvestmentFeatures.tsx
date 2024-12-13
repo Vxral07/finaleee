@@ -33,7 +33,7 @@ export const InvestmentFeatures: React.FC = () => {
         <div className="flex w-[45%] max-md:w-full items-center justify-center">
           <img
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/63e44dcaf82232257968e49f9afa818ae116b57609022005000e221acba68586?placeholderIfAbsent=true&apiKey=8031103fb59b4417b3d6df6558972104"
+            src="/gsdgbaiugbdg.jpg"
             alt="Investment features illustration"
             className="rounded-lg object-contain"
             style={{

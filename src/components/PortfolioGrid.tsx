@@ -36,9 +36,13 @@ export const PortfolioGrid: React.FC = () => {
   return (
     <div className="flex flex-col items-center py-20 bg-black text-white">
       {/* Section Header */}
-      <h2 className="text-4xl font-bold text-cyan-400 mb-10 text-center">
-        Nuqi Global CEP (Curated Equity Portfolios)
-      </h2>
+      <h1 className="mb-10 text-center text-3xl pb-5 leading-tight sm:text-4xl lg:text-5xl">
+        <span className="text-white">Nuqi</span>{" "}
+        <span className="text-white">Global</span>{" "}
+        <span className="text-white">CEP</span>{" "}
+        <span className="text-cyan-500">(Curated Equity Portfolios)</span>
+      </h1>
+
       <p className="max-w-3xl text-center text-gray-400 mb-5">
         Our Nuqi Global Basket offers a variety of curated investment themes,
         each catering to specific risk appetite and investment goals:
@@ -48,7 +52,7 @@ export const PortfolioGrid: React.FC = () => {
       <div className="grid grid-cols-1 gap-8 px-5 py-10 md:grid-cols-2">
         {portfolioData.map((portfolio, index) => (
           <PortfolioCard key={index} index={index} {...portfolio} />
-    ))}
+        ))}
       </div>
     </div>
   );

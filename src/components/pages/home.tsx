@@ -23,7 +23,7 @@ import { InvestmentFeatures } from "../InvestmentFeatures";
 
 const Home = () => {
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-x-hidden font-poppins">
       {/* <Announcement /> */}
       <Hero />
       {/* <FeatureCard /> */}
